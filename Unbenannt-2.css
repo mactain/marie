@@ -1,0 +1,217 @@
+
+@media only screen and (max-width:1023px) {
+  /* For mobile phones: */
+  .menu, .main, .right{
+    width:100%;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  /* For mobile phones: */
+  .menu, .main, .right{
+    width:100%;
+  }
+    div.show{
+        display: none
+    }
+    }
+    
+    
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding: 20px;
+}
+.right {
+  background-color:#ffffff;
+  float:center;
+  width:100%;
+  padding:1vw;
+  text-align:center;
+  display: block;
+}
+.gosia{
+    display: block;
+    float: inherit;
+    width: 56vw;
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    max-width: 75%
+    }
+.clear {
+    clear: both;
+    }
+.body {
+    background-image: image();
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: center;
+    overflow-x: hidden;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+    background-position: bottom center;
+    }
+.vlh {
+    display: block;
+    float: center;
+    width: 95%;
+    padding-bottom: 2vw;
+    padding-left: 4.5vw
+    }
+.top {
+    display: block;
+    background-color:#ffffff;
+    padding:3vw;
+    text-align:center;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    overflow: auto;
+    padding-bottom: 0vw;
+    margin-bottom: 10vw;
+    width: 91vw
+    }
+
+.toplog {
+    display: block;
+    background-color:#ffffff;
+    padding:3vw;
+    text-align:center;
+    margin-top: 4.5vw;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    overflow: auto;
+    padding-bottom: 0vw;
+    width: 91vw;
+    margin-bottom: 0vw
+    }
+.schrift1 {
+    font-family: Verdana;
+    color:#646565;
+    font-size: 5vw;
+    }
+.schrift2 {
+    font-family: Verdana;
+    color:#646565;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    }
+.schrift3 {
+    font-family: Verdana;
+    color:#646565;
+    font-size: 8vw;
+    }
+  
+    ------------------------------
+.tab {
+  width: 100%; /* Full-width */
+  overflow: hidden; /* Overflow due to float */
+  opacity: 0.6;
+  display: inline;
+  background-color: transparent;
+    
+}
+
+.tab button {
+  float: left;
+  text-align: center; 
+  width: 19.3vw;
+  padding: 5vw;
+  padding-bottom: 3vw;
+  transition: all 0.3s ease; 
+  font-size: 9vw; 
+  opacity: 0.5;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.tab button:hover {
+  opacity: 1; /* Add a hover color */
+}
+
+.tab button.active {
+  opacity: 1; /* Add an active/current color */
+}
+    
+.top2 {
+    display: inline;
+    padding:3vw;
+    padding-top: 0vw;
+    text-align:center;
+    margin-top: 0vw;
+    margin-left: 20vw;
+    margin-right: auto;
+    overflow: auto;
+    width: 100vw;
+    margin-bottom: 0vw;
+    }
+
+.top {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+    
+    
+.tabelle{
+        text-align: left;
+    margin-bottom: 7vw;
+        
+    }
+
+.schriftt1 {
+    font-family: Verdana;
+    color:#646565;
+    font-size: 5vw;
+    text-align: left
+    }
+.schriftt2 {
+    font-family: Verdana;
+    color:#646565;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    text-align: left
+    }
+.schriftt3 {
+    font-family: Verdana;
+    color:#646565;
+    font-size: 8vw;
+    text-align: left
+    }
+    
+.fll{
+    color: transparent;
+    background-color: transparent;
+    width: 100vw;
+    margin-top: 1vw;
+    text-align: center;
+    color: #ffffff;
+    height: 1vh;
+    opacity: 0.5}
+    
